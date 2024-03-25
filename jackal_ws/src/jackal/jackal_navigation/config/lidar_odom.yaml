@@ -1,0 +1,6 @@
+lidar/icp_odometry:
+  ros__parameters:
+    publish_tf: false
+    Reg/Strategy: '1'
+    Odom/Strategy: '1'
+    Odom/ResetCountdown: '3'

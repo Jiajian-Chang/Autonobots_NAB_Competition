@@ -1,0 +1,10 @@
+visual/rgbd_odometry:
+  ros__parameters:
+
+    Odom/Strategy: '1'
+    Odom/ResetCountdown: '3'
+    Vis/MaxFeatures: '600'
+    publish_tf: false
+    approx_sync: false
+    odom_frame_id: 'odom'
+    Vis/CorType: '0' #enable optical flow
