@@ -3,7 +3,7 @@ import subprocess
 
 
 def excute_script():
-    subprocess.Popen(['python', 'script.py'])
+    subprocess.Popen(['/home/autonobots/Autonobots_NAB_Competition/lock.sh'])
 
 app = QApplication([])  
 
