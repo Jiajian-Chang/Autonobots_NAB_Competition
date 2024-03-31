@@ -1,0 +1,5 @@
+Add .py files mentioned in foxy_subs folder to the following path /opt/ros/foxy/lib/python3.8/site-packages/launch/substitutions
+
+ros2 launch nav2_costmap_filters_demo costmap_filter_info.launch.py params_file:=`pwd`/nav2_costmap_filters_demo/maps/map_filter_mask.yaml mask:=`pwd`/nav2_costmap_filters_demo/maps/map_filter_mask.yaml use_composition:=True
+
+ros2 launch nav2_bringup tb3_simulation_launch.py
