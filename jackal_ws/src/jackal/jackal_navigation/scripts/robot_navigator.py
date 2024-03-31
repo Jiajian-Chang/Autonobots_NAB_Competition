@@ -58,35 +58,116 @@ def main():
     # global_costmap = navigator.getGlobalCostmap()
     # local_costmap = navigator.getLocalCostmap()
 
+    #[('A', [1.984, -0.5875]), ('B', [4.6645, 3.795]), 
+    #('C', [8.128499999999999, 17.355]), ('D', [3.5845, 16.178]), 
+    #('E', [7.2205, 15.8535]), ('F', [12.6115, 10.519]), 
+    #('G', [8.9695, 4.898]), ('H', [3.3785, 8.292]), ('I', [3.9425, 14.646]), 
+    #('J', [7.4855, 10.973500000000001])]
+    #Finish point to be added
+    # order of waypoints A,B,G, F,J,H,I,D,E,C
+
     # set our demo's goal poses to follow
+    #('A', [1.984, -0.5875])
     goal_poses = []
     goal_pose1 = PoseStamped()
     goal_pose1.header.frame_id = 'map'
     goal_pose1.header.stamp = navigator.get_clock().now().to_msg()
-    goal_pose1.pose.position.x = 0.5
-    goal_pose1.pose.position.y = 0.0
+    goal_pose1.pose.position.x = 1.984
+    goal_pose1.pose.position.y = -0.5875
     goal_pose1.pose.orientation.w = 1.0
     goal_pose1.pose.orientation.z = 0.0
     goal_poses.append(goal_pose1)
 
     # additional goals can be appended
+    #('B', [4.6645, 3.795])
     goal_pose2 = PoseStamped()
     goal_pose2.header.frame_id = 'map'
     goal_pose2.header.stamp = navigator.get_clock().now().to_msg()
-    goal_pose2.pose.position.x = 2.0
-    goal_pose2.pose.position.y = 0.0
+    goal_pose2.pose.position.x = 4.6645
+    goal_pose2.pose.position.y = 3.795
     goal_pose2.pose.orientation.w = 1.0
     goal_pose2.pose.orientation.z = 0.0
     goal_poses.append(goal_pose2)
 
+    #('G', [8.9695, 4.898])
     goal_pose3 = PoseStamped()
     goal_pose3.header.frame_id = 'map'
     goal_pose3.header.stamp = navigator.get_clock().now().to_msg()
-    goal_pose3.pose.position.x = 3.0
-    goal_pose3.pose.position.y = 0.0
+    goal_pose3.pose.position.x = 8.9695
+    goal_pose3.pose.position.y = 4.898
     goal_pose3.pose.orientation.w = 1.0
     goal_pose3.pose.orientation.z = 0.0
     goal_poses.append(goal_pose3)
+
+     #('F', [12.6115, 10.519])
+    goal_pose4 = PoseStamped()
+    goal_pose4.header.frame_id = 'map'
+    goal_pose4.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose4.pose.position.x = 12.6115
+    goal_pose4.pose.position.y = 10.519
+    goal_pose4.pose.orientation.w = 1.0
+    goal_pose4.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose4)
+
+    #('J', [7.4855, 10.973500000000001])
+    goal_pose5 = PoseStamped()
+    goal_pose5.header.frame_id = 'map'
+    goal_pose5.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose5.pose.position.x = 7.4855
+    goal_pose5.pose.position.y = 10.973500000000001
+    goal_pose5.pose.orientation.w = 1.0
+    goal_pose5.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose5)
+
+    #('H', [3.3785, 8.292])
+    goal_pose6 = PoseStamped()
+    goal_pose6.header.frame_id = 'map'
+    goal_pose6.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose6.pose.position.x = 3.3785
+    goal_pose6.pose.position.y = 8.292
+    goal_pose6.pose.orientation.w = 1.0
+    goal_pose6.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose6)
+
+    #('I', [3.9425, 14.646])
+    goal_pose7 = PoseStamped()
+    goal_pose7.header.frame_id = 'map'
+    goal_pose7.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose7.pose.position.x = 3.9425
+    goal_pose7.pose.position.y = 14.646
+    goal_pose7.pose.orientation.w = 1.0
+    goal_pose7.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose7)
+
+    #('D', [3.5845, 16.178])
+    goal_pose8 = PoseStamped()
+    goal_pose8.header.frame_id = 'map'
+    goal_pose8.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose8.pose.position.x = 3.5845
+    goal_pose8.pose.position.y = 16.178
+    goal_pose8.pose.orientation.w = 1.0
+    goal_pose8.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose8)
+
+    #('E', [7.2205, 15.8535])
+    goal_pose9 = PoseStamped()
+    goal_pose9.header.frame_id = 'map'
+    goal_pose9.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose9.pose.position.x = 7.2205
+    goal_pose9.pose.position.y = 15.8535
+    goal_pose9.pose.orientation.w = 1.0
+    goal_pose9.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose9)
+
+    #('C', [8.128499999999999, 17.355])
+    goal_pose10 = PoseStamped()
+    goal_pose10.header.frame_id = 'map'
+    goal_pose10.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose10.pose.position.x = 8.128499999
+    goal_pose10.pose.position.y = 17.355
+    goal_pose10.pose.orientation.w = 1.0
+    goal_pose10.pose.orientation.z = 0.0
+    goal_poses.append(goal_pose10)
 
     #print(">>>", len(goal_poses))
 
