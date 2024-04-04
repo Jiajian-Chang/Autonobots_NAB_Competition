@@ -10,8 +10,8 @@ def read_csv(file_path):
 
 def calculate_image_size(coordinates, margin):
     # Find the min and max coordinates
-    x_values = [float(coord['easting']) for coord in coordinates]
-    y_values = [float(coord['northing']) for coord in coordinates]
+    x_values = [float(coord['EASTING']) for coord in coordinates]
+    y_values = [float(coord['NORTHING']) for coord in coordinates]
     min_x, max_x = min(x_values), max(x_values)
     min_y, max_y = min(y_values), max(y_values)
     # Calculate the required image size
@@ -23,9 +23,9 @@ def draw_environment_dets(coordinates, additional_points, margin):
     # Calculate the dynamic image size
     image_size = calculate_image_size(coordinates, margin)
     # Calculate the scaling factor to fit the rectangle within the image with margin
-    corner_coordinates = [coord for coord in coordinates if coord['name'].startswith('corner')]
-    x_values = [float(coord['easting']) for coord in corner_coordinates]
-    y_values = [float(coord['northing']) for coord in corner_coordinates]
+    corner_coordinates = [coord for coord in coordinates if coord['NAME'].startswith('EDGE')]
+    x_values = [float(coord['EASTING']) for coord in corner_coordinates]
+    y_values = [float(coord['NORTHING']) for coord in corner_coordinates]
     min_x, max_x = min(x_values), max(x_values)
     min_y, max_y = min(y_values), max(y_values)
     width = max_x - min_x
@@ -35,18 +35,14 @@ def draw_environment_dets(coordinates, additional_points, margin):
     img = Image.new('RGBA', image_size, color=(255, 255, 255, 255))
     draw = ImageDraw.Draw(img)
     # Draw the scaled rectangle
-    scaled_coordinates = [((float(coord['easting']) - min_x) * scaling_factor + margin, (float(coord['northing']) - min_y) * scaling_factor + margin) for coord in corner_coordinates]
-    #draw.polygon([scaled_coordinates[0], scaled_coordinates[1], scaled_coordinates[3], scaled_coordinates[2]], outline=(0, 0, 0, 255))
-
+    scaled_coordinates = [((float(coord['EASTING']) - min_x) * scaling_factor + margin, (float(coord['NORTHING']) - min_y) * scaling_factor + margin) for coord in corner_coordinates]
     # Draw the scaled rectangle with a thicker boundary
     boundary_thickness = 8  # Adjust thickness as needed
     for i in range(boundary_thickness):
         draw.polygon([
-            (scaled_coordinates[0][0] - i, scaled_coordinates[0][1] - i),
-            (scaled_coordinates[1][0] + i, scaled_coordinates[1][1] - i),
-            (scaled_coordinates[3][0] + i, scaled_coordinates[3][1] + i),
-            (scaled_coordinates[2][0] - i, scaled_coordinates[2][1] + i)
+            (coord[0] - i, coord[1] - i) for coord in scaled_coordinates
         ], outline=(0, 0, 0, 255))
+        
     return scaling_factor, margin, min_x, min_y, draw, img
 
 
@@ -65,8 +61,8 @@ def create_yaml(): #hard coded for now
     yaml.close()
 
 if __name__ == "__main__":
-    environment_coordinates = read_csv('environment.csv')
-    additional_points = [point for point in environment_coordinates if point['name'] in ('origin', 'ref01', 'finish')]
+    environment_coordinates = read_csv('environment_m.csv')
+    additional_points = [point for point in environment_coordinates if point['NAME'] in ('ORIGIN', 'REF01', 'FINISH')]
     margin = 10
     scaling_factor, margin, min_x, min_y, draw, img = draw_environment_dets(environment_coordinates, additional_points, margin)
     save_image(img)
