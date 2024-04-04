@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 image: gray_map.pgm
+=======
+image: gray_map_v3.pgm
+>>>>>>> 5766fb7aa4afe9b29aca99cc00a563ac6adae3d6
 resolution: 0.050000
 origin: [0.0, 0.0, 0.0]
 negate: 0
 occupied_thresh: 0.65
+<<<<<<< HEAD
 free_thresh: 0.196
+=======
+free_thresh: 0.196
+>>>>>>> 5766fb7aa4afe9b29aca99cc00a563ac6adae3d6

@@ -1,0 +1,395 @@
+[0.263s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'nav2_costmap_filters_demo']
+[0.264s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc28a292fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['nav2_costmap_filters_demo'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc28a292fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc28a2472e0>)
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.478s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_con_check) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/host_con_check' with type 'ros.ament_python' and name 'host_con_check'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/build) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/build) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/build) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/install) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/install) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/install) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_control' with type 'ros.ament_cmake' and name 'jackal_control'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_description' with type 'ros.ament_cmake' and name 'jackal_description'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ros'
+[0.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_msgs' with type 'ros.ament_cmake' and name 'jackal_msgs'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_navigation' with type 'ros.ament_cmake' and name 'jackal_navigation'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/log) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/log) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/log) ignored
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/nav2_costmap_filters_demo) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/nav2_costmap_filters_demo' with type 'ros.ament_cmake' and name 'nav2_costmap_filters_demo'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_robot' with type 'ros.ament_cmake' and name 'jackal_robot'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ros'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['cmake', 'python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'cmake'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wireless/wireless_msgs' with type 'ros.ament_cmake' and name 'wireless_msgs'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wireless/wireless_watcher' with type 'ros.ament_python' and name 'wireless_watcher'
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drive_base_msgs' in 'src/uros/drive_base/drive_base_msgs'
+[0.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'host_con_check' in 'src/host_con_check'
+[0.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_description' in 'src/jackal/jackal_description'
+[0.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_msgs' in 'src/jackal/jackal_msgs'
+[0.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_navigation' in 'src/jackal/jackal_navigation'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_msgs' in 'src/uros/micro_ros_msgs'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wireless_msgs' in 'src/wireless/wireless_msgs'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_control' in 'src/jackal/jackal_control'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_agent' in 'src/uros/micro-ROS-Agent/micro_ros_agent'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wireless_watcher' in 'src/wireless/wireless_watcher'
+[0.575s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jackal_robot' in 'src/jackal_robot'
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/autonobots/tutorials_ws/install
+[0.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/foxy
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_costmap_filters_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo', 'merge_install': False, 'path': '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/src/jackal/nav2_costmap_filters_demo', 'symlink_install': True, 'test_result_base': None}
+[0.674s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.675s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/src/jackal/nav2_costmap_filters_demo' with build type 'ament_cmake'
+[0.675s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/src/jackal/nav2_costmap_filters_demo'
+[0.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/autonobots/catkin_ws/devel'
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/src/jackal/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/src/jackal/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake --build /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake --build /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake --install /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo
+[2.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_costmap_filters_demo)
+[2.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/home/autonobots/tutorials_ws/install/nav2_costmap_filters_demo:/opt/ros/foxy:/home/autonobots/catkin_ws/devel /usr/bin/cmake --install /home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/build/nav2_costmap_filters_demo
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo' for CMake module files
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo' for CMake config files
+[2.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_costmap_filters_demo', 'cmake_prefix_path')
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.ps1'
+[2.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.sh'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/bin'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/lib/pkgconfig/nav2_costmap_filters_demo.pc'
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/lib/python3.8/site-packages'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/bin'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.ps1'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.sh'
+[2.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.bash'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.zsh'
+[2.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/colcon-core/packages/nav2_costmap_filters_demo)
+[2.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_costmap_filters_demo)
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo' for CMake module files
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo' for CMake config files
+[2.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_costmap_filters_demo', 'cmake_prefix_path')
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.ps1'
+[2.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.dsv'
+[2.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.sh'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/bin'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/lib/pkgconfig/nav2_costmap_filters_demo.pc'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/lib/python3.8/site-packages'
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/bin'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.ps1'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.sh'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.bash'
+[2.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.zsh'
+[2.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/nav2_costmap_filters_demo/share/colcon-core/packages/nav2_costmap_filters_demo)
+[2.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.918s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.918s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.940s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.940s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.940s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.031s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/local_setup.ps1'
+[3.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/_local_setup_util_ps1.py'
+[3.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/setup.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/local_setup.sh'
+[3.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/_local_setup_util_sh.py'
+[3.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/setup.sh'
+[3.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/local_setup.bash'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/setup.bash'
+[3.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/local_setup.zsh'
+[3.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonobots/shruti_udupa/not_a_boring_competition/git_repo/Autonobots_NAB_Competition/jackal_ws/install/setup.zsh'
